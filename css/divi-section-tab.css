@@ -1,0 +1,16 @@
+.cwp_section_tab_enabled .tabs-nav {
+    display: flex
+}
+
+.cwp_section_tab_enabled .tabs-nav li {
+    list-style: none;
+    display   : inline-block
+}
+
+.cwp_section_tab_enabled .tabs-nav li>a {
+    display: block
+}
+
+.tabs-nav li>a {
+    cursor: pointer
+}

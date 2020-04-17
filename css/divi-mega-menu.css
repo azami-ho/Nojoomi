@@ -1,0 +1,26 @@
+.et_pb_layout-template-default .et_pb_dmm_dropdown::before {
+    background-repeat  : no-repeat;
+    background-position: center;
+    content            : "" !important;
+    width              : 20px;
+    height             : 20px;
+    margin             : auto
+}
+
+.et_pb_layout-template-default .et_pb_dmm_dropdown::after {
+    content            : "" !important;
+    display            : block !important;
+    width              : 15px;
+    height             : 20px;
+    background-image   : url(../images/admin-area/divi-engine-grey.svg);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : contain;
+    position           : absolute;
+    right              : 7px;
+    top                : 3px
+}
+
+.et_pb_layout-template-default .et_pb_dmm_dropdown::before {
+    background-image: url(../images/admin-area/mega-dropdown.svg)
+}
