@@ -340,7 +340,8 @@ img {
 
 #digitalworkflow {
     right: auto !important;
-    left: 380px !important;
+    left: 200px !important;
+    width:400px
 }
 
 #about {
@@ -1356,7 +1357,8 @@ body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_header_style_slide #main-h
 
 .et_header_style_left #et-top-navigation,
 .et_header_style_split #et-top-navigation {
-    padding-top: 33px
+    padding-top: 33px;
+    direction: rtl;
 }
 
     .et_header_style_left #et-top-navigation nav > ul > li > a,
@@ -1771,11 +1773,12 @@ nav.et-menu-nav {
 }
 
 #et_search_icon:before {
+    font-family: "Font-Awesome" !important;
     position: absolute;
     top: -3px;
     left: 0;
     font-size: 17px;
-    content: "\55"
+    content: "\f002"
 }
 
 #et_search_icon:hover {
@@ -1788,7 +1791,7 @@ nav.et-menu-nav {
     position: relative;
     width: 18px;
     margin: 3px 22px 0 0;
-    left: 30px;
+    left: -560px;
 }
 
     #et_top_search.et_search_opened {
@@ -1887,14 +1890,14 @@ span.et_close_search_field {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        font-family: ETmodules;
+        font-family: "Font Awesome 5 Brands";
         font-size: 32px;
         font-weight: 400;
         font-variant: normal;
         -webkit-font-smoothing: antialiased;
         line-height: 1;
         text-transform: none;
-        content: "\4d";
+        content: "\f4eb";
         speak: none
     }
 
@@ -2768,7 +2771,7 @@ figure.woocommerce-product-gallery__wrapper {
     position: absolute;
     top: 0;
     right: 0;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font-Awesome";
     font-size: 16px;
     font-weight: 800;
     content: "\f107"
@@ -3750,7 +3753,8 @@ ul.et_pb_side_nav {
 }
 
 .et_pb_scroll_top:before {
-    content: "2"
+    font-family: "Font-Awesome";
+    content: "\f106"
 }
 
 .et_pb_scroll_top.et-visible {
@@ -4481,7 +4485,8 @@ ul.et_pb_side_nav {
 
 .et_header_style_fullscreen .et-fixed-header #et-top-navigation,
 .et_header_style_slide .et-fixed-header #et-top-navigation {
-    padding: 11px 0 !important
+    padding: 11px 0 !important;
+    direction: rtl;
 }
 
 .et_left_sidebar #main-content .et_pb_column_2_3 .et_pb_countdown_timer .section p.value,
@@ -6054,7 +6059,8 @@ ul.et_pb_side_nav {
     }
 
     #et-top-navigation {
-        margin-right: 0
+        margin-right: 0;
+        direction: rtl !important;
     }
 
     body.et_fixed_nav.et_secondary_nav_two_panels #main-header,
@@ -6227,7 +6233,7 @@ ul.et_pb_side_nav {
     width: 28px;
     margin-top: -3px;
     color: #974df3 !important;
-    font-family: ETmodules !important;
+    font-family: "Font-Awesome";
     font-size: 30px !important;
     content: "\e625"
 }
@@ -6617,7 +6623,7 @@ ul.et_pb_side_nav {
 .woocommerce-page input.button:after,
 a.et_pb_more_button:after {
     text-shadow: 0 0;
-    font-family: ETmodules !important;
+    font-family: ETmodules;
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -6671,7 +6677,8 @@ a.et_pb_more_button:after {
 
     .nav li li {
         position: relative;
-        line-height: 2em
+        line-height: 2em;
+        text-align: right
     }
 
     .nav li ul {
